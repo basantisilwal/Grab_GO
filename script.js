@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 } else {
                     section.style.display = 'none';
                 }
+                
             });
         });
     });
