@@ -10,6 +10,8 @@
 body{
     margin: 0;
             padding: 0;
+
+
             font-family: Arial, sans-serif;
             background-image: url('Admin/Customer/images/Background .jpg'); /* Set your background image */
             background-size: cover;
@@ -40,7 +42,6 @@ body{
                 <li><a href="#" data-target="home">Home</a></li>
                 <li><a href="#" data-target="about">About Us</a></li>
                 <li><a href="#" data-target="contact">Contact</a></li>
-                <li><a href="#" data-target="login" id="login-button">Login</a></li> <!-- Login button with ID -->
             </ul>
         </nav>
        
@@ -48,14 +49,16 @@ body{
     <div id="content"></div>
         <section id="home" class="page active">  
         <h1>Welcome to Our Website <br> FOOD DELIVERY</h1>
-        <button class="home-button">ORDER NOW</button>
+        
+        <a href="login.html"><button class="home-button">ORDER NOW</button></a>
         <p>Grab&Go</p>
     </section>
 
         <section id="about" class="page" style="display:none;">
             <h2>About Us</h2>
-            <p>Revolutionizing the Online Food Ordering & Delivery Industry.<br> At Grab&Go,we ensure complete multi-restaurant integration from a single 
-                solution and create a complete ecosystem that benefits every user related to the system.</p>
+            <p>Revolutionizing the Online Food Ordering & Delivery Industry.<br> 
+                At Grab&Go,we ensure complete multi-restaurant integration from <br>a single 
+                solution and create a complete ecosystem that benefits every<br> user related to the system.</p>
         </section>
 
         <section id="contact" class="page" style="display:none;">
@@ -70,8 +73,8 @@ body{
                 <button type="submit">Send</button>
             </form>
         </section>
-<a href="login.html">
-      <h1>login</h1>
+    
+      
     </a>
     </div>
 
