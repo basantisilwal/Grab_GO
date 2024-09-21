@@ -34,7 +34,7 @@ nav ul li a {
 .page {
     padding: 100px;
     margin: 0 auto;
-    max-width: 9000px;
+    max-width: 12000px;
 }
     #home h1 {
         font-size: 36px; /* Adjust the size as needed */
@@ -63,7 +63,7 @@ nav ul li a {
     
     .login-container {
         display: flex;
-        width: 800px;
+        width: 1000px;
         background-color: #fff;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -73,17 +73,14 @@ nav ul li a {
       .left-section {
         flex: 1;
         background-color: #fafafa;
-        padding: 20px;
-      }
-      
-      .illustration {
-        width: 100%;
-        max-height: 300px;
+        padding: -150px;
+        width: 50px; /* Reduced width of the left section */
+        
       }
       
       .right-section {
         flex: 1;
-        padding: 40px;
+        padding: 20px;
         background-color: #fff8e1;
         display: flex;
         flex-direction: column;
@@ -145,6 +142,46 @@ nav ul li a {
       .signup-text a:hover {
         text-decoration: underline;
       }
+      .logo {
+        width: 100px; 
+        height: auto;
+        position: relative;
+        left: 70px; /* Moves right */
+         top: 380px; 
+        
+      }
+
+      .sidepicture{
+        width: 250px; 
+        height: auto; 
+        position: relative;
+         left: 0px;
+         top: 90px; 
+        transform: rotate(30deg);
+
+      }
+
+      .cross-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        width: 30px; 
+        height: auto; 
+        position: relative;
+         left: 480px;
+         top: -220px;
+      }
+      
+      .cross-button img.cross-icon {
+        width: 30px;
+        height: 25px;
+      }
+      
+      .cross-button:hover img.cross-icon {
+        opacity: 0.7;
+      }
+      
    
 
 
