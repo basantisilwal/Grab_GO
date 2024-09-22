@@ -2,16 +2,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10;
     box-sizing: border-box;
     background: url('images/Pi7_Tool_Background.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensure the background covers the entire page */
 }
 
 header {
-    background-color: #fff;
+    background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 0px 0;
 }
 
 nav ul {
@@ -23,26 +23,165 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 25px;
+    margin: 0 30px;
 }
 
 nav ul li a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
 }
 
 .page {
-    padding: 50px;
+    padding: 100px;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 12000px;
 }
+    #home h1 {
+        font-size: 36px; /* Adjust the size as needed */
+    }
+    #home p {
+        font-size: 18px; 
+        line-height: 1.6; 
+    }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
+    #about h2 {
+        font-size: 36px; 
+    }
+    #about p {
+        font-size: 18px; /* Adjust the size as needed */
+        line-height: 1.6; /* Optional: improves readability */
+    }
+
+    #contact h3 {
+        font-size: 36px; 
+    }
+    #contact p {
+        font-size: 18px; /* Adjust the size as needed */
+        line-height: 1.6; /* Optional: improves readability */
+    }
+    
+    .login-container {
+        display: flex;
+        width: 1000px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      
+      .left-section {
+        flex: 1;
+        background-color: #fafafa;
+        padding: -150px;
+        width: 50px; /* Reduced width of the left section */
+        
+      }
+      
+      .right-section {
+        flex: 1;
+        padding: 20px;
+        background-color: #fff8e1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      h1 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+      p {
+        margin-bottom: 20px;
+        color: #666;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      label {
+        margin-bottom: 5px;
+        color: #333;
+      }
+      
+      input {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      button {
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      button:hover {
+        background-color: #555;
+      }
+      
+      .signup-text {
+        margin-top: 10px;
+        color: #f15b2a;
+      }
+      
+      .signup-text a {
+        color: #ff4500;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      .signup-text a:hover {
+        text-decoration: underline;
+      }
+      .logo {
+        width: 100px; 
+        height: auto;
+        position: relative;
+        left: 70px; /* Moves right */
+         top: 380px; 
+        
+      }
+
+      .sidepicture{
+        width: 250px; 
+        height: auto; 
+        position: relative;
+         left: 0px;
+         top: 90px; 
+        transform: rotate(30deg);
+
+      }
+
+      .cross-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        width: 30px; 
+        height: auto; 
+        position: relative;
+         left: 480px;
+         top: -220px;
+      }
+      
+      .cross-button img.cross-icon {
+        width: 30px;
+        height: 25px;
+      }
+      
+      .cross-button:hover img.cross-icon {
+        opacity: 0.7;
+      }
+      
+   
+
+

@@ -10,18 +10,20 @@
 body{
     margin: 0;
             padding: 0;
+
+
             font-family: Arial, sans-serif;
             background-image: url('Admin/Customer/images/Background .jpg'); /* Set your background image */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 1vh; /* Full height */
+            height: 20px; /* Full height */
 } 
 .container {
             display: flex;
             justify-content: center;
             align-items: center;
-            height:1%;
+            height: 15px;
             color: white;
             text-align: center;
         }
@@ -40,23 +42,23 @@ body{
                 <li><a href="#" data-target="home">Home</a></li>
                 <li><a href="#" data-target="about">About Us</a></li>
                 <li><a href="#" data-target="contact">Contact</a></li>
-                <li><a href="#" data-target="login">Login</a></li>
             </ul>
         </nav>
        
     </header>
     <div id="content"></div>
-        <section id="home" class="page active">
-            
+        <section id="home" class="page active">  
         <h1>Welcome to Our Website <br> FOOD DELIVERY</h1>
-        <button class="home-button">ORDER NOW</button>
+        
+        <a href="login.html"><button class="home-button">ORDER NOW</button></a>
         <p>Grab&Go</p>
     </section>
 
         <section id="about" class="page" style="display:none;">
             <h2>About Us</h2>
-            <p>Revolutionizing the Online Food Ordering & Delivery Industry.<br> At Grab&Go,we ensure complete multi-restaurant integration from a single 
-                solution and create a complete ecosystem that benefits every user related to the system.</p>
+            <p>Revolutionizing the Online Food Ordering & Delivery Industry.<br> 
+                At Grab&Go,we ensure complete multi-restaurant integration from <br>a single 
+                solution and create a complete ecosystem that benefits every<br> user related to the system.</p>
         </section>
 
         <section id="contact" class="page" style="display:none;">
@@ -71,22 +73,10 @@ body{
                 <button type="submit">Send</button>
             </form>
         </section>
-
-        <section id="login" class="page" style="display:none;">
-            <h2>Login</h2>
-            <form id="loginForm" action="login.php" method="post">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <button type="submit">Login</button>
-            </form>
-        </section>
+    
+      
+    </a>
     </div>
-
-    <footer>
-        <p>&copy; 2024 Your Company</p>
-    </footer>
 
     <script src="script.js"></script>
 </html>
